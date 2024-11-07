@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../DDS.srcs/sources_1/ip/clk_wiz_0" --include "../../../../DDS.srcs/sources_1/ip/vio_0/hdl" \
+"../../../../DDS.srcs/sources_1/ip/ROM_TRI/sim/ROM_TRI.v" \
+"../../../../DDS.srcs/sources_1/ip/ROM_SQURE/sim/ROM_SQURE.v" \
+"../../../../DDS.srcs/sources_1/ip/ROM_SINE/sim/ROM_SINE.v" \
+"../../../../DDS.srcs/sources_1/new/DDS.v" \
+"../../../../DDS.srcs/sim_1/new/DDS_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 20 19:10:10 2024
+# Process ID: 22376
+# Current directory: E:/FPGA/DDS/DDS.runs/ROM_TRI_synth_1
+# Command line: vivado.exe -log ROM_TRI.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ROM_TRI.tcl
+# Log file: E:/FPGA/DDS/DDS.runs/ROM_TRI_synth_1/ROM_TRI.vds
+# Journal file: E:/FPGA/DDS/DDS.runs/ROM_TRI_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ROM_TRI.tcl -notrace

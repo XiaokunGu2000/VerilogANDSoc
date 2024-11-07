@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/FPGA/RAMPIC/RAMPIC.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sim_1/new/RAMPIC_TB.v,1711404753,verilog,,,,RAMPIC_TB,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sim_1/new/UART_RAM_TB.v,1711423244,verilog,,,,UART_RAM_TB,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/imports/new/TFT.v,1724533104,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/imports/new/UARTR.v,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/imports/new/TFT_PARAMETER.v,TFT,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/imports/new/TFT_PARAMETER.v,1711243357,verilog,,,,,,,,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/imports/new/UARTR.v,1710296779,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/new/UART_RAM_TFT.v,,UARTR,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/ip/RAM/sim/RAM.v,1711422975,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,RAM,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1711423660,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,blk_mem_gen_0,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1711408536,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/new/RAMPIC.v,,clk_wiz_0,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1711408536,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/new/RAMPIC.v,1711252184,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/imports/new/TFT.v,,RAMPIC,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA/RAMPIC/RAMPIC.srcs/sources_1/new/UART_RAM_TFT.v,1711424138,verilog,,E:/FPGA/RAMPIC/RAMPIC.srcs/sim_1/new/UART_RAM_TB.v,,UART_RAM_TFT,,,../../../../RAMPIC.srcs/sources_1/ip/clk_wiz_0,,,,,
