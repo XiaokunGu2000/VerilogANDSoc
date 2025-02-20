@@ -1,0 +1,43 @@
+22:24:22 **** Build of configuration Debug for project rgb2tft ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rgb2tft_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:123:35: warning: passing argument 2 of 'Pic_Display' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Pic_Display((uint8_t*)srcBuffer, gImage_pic0);
+                                   ^~~~~~~~~~~
+../src/helloworld.c:71:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const unsigned char *'
+ void Pic_Display(uint8_t *frame, uint8_t *Pic){
+      ^~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rgb2tft_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/vdma_api.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rgb2tft_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vdma_api.d" -MT"src/vdma_api.o" -o "src/vdma_api.o" "../src/vdma_api.c"
+../src/vdma_api.c:353:12: warning: 'WriteSetup' defined but not used [-Wunused-function]
+ static int WriteSetup(vdma_handle *vdma_context)
+            ^~~~~~~~~~
+Finished building: ../src/vdma_api.c
+ 
+Building target: rgb2tft.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rgb2tft_bsp/ps7_cortexa9_0/lib -o "rgb2tft.elf"  ./src/helloworld.o ./src/platform.o ./src/vdma_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: rgb2tft.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size rgb2tft.elf  |tee "rgb2tft.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1198840	   1288	  22968	1223096	 12a9b8	rgb2tft.elf
+Finished building: rgb2tft.elf.size
+ 
+
+22:24:30 Build Finished (took 8s.166ms)
+
